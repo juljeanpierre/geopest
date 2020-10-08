@@ -31,7 +31,7 @@ body {font-size:16px;}
 .w3-half img:hover{opacity:1}
 
 .submtbtn {
-  background-color: #2a9df4;
+  background-color: #3937c5;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -44,13 +44,17 @@ body {font-size:16px;}
 .submtbtn:hover {
   opacity: 0.8;
 }
+.sidewing {
+  background-color: #3937c5;
+  color: white;
+}
 
 </style>
 </head>
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding sidewing" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
 
@@ -61,13 +65,13 @@ body {font-size:16px;}
     <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Control</a>
     <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>
     <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Meet the Team</a>
-    <a href="#contact_id" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact us</a>
+    <a href="#contact_id" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+<header class="w3-container w3-top w3-hide-large sidewing w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button sidewing w3-margin-right" onclick="w3_open()">☰</a>
   <span>Geo Pest</span>
 </header>
 
@@ -81,8 +85,8 @@ body {font-size:16px;}
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <img src="images/logo.png">
     <!-- h1 class="w3-jumbo"><b>PEST</b></h1 -->
-    <h1 class="w3-xxxlarge w3-text-grey"><b>Control</b></h1>
-    <hr style="width:50px;border:5px solid #2a9df4" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Control.</b></h1>
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
   </div>
 
   <!-- Photo grid (modal) -->
@@ -112,7 +116,7 @@ body {font-size:16px;}
   <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-grey"><b>Services.</b></h1>
-    <hr style="width:50px;border:5px solid #2a9df4" class="w3-round">
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
 
     <p>Offering a wide range of pest control and hygiene services within the commercial sector, ensuring a cleaner, safer and healthier environment.</p>
     <br>
@@ -121,11 +125,11 @@ body {font-size:16px;}
     <div class="w3-row-padding">
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-light-grey w3-center">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pest Control</li>
+          <li class="sidewing w3-xlarge w3-padding-32">Pest Control</li>
           <li class="w3-padding-16">Cockroaches</li>
-          <li class="w3-padding-16">Fleas</li>
+          <li class="w3-padding-16">Flies</li>
           <li class="w3-padding-16">Ants</li>
-          <li class="w3-padding-16">Occational Invaders</li>
+          <li class="w3-padding-16">Occasional Invaders</li>
           <li class="w3-padding-16">Store Product Insects</li>
           <li class="w3-padding-16">Rats & Mice</li>
             <h2> - </h2>
@@ -136,7 +140,7 @@ body {font-size:16px;}
 
       <div class="w3-half">
         <ul class="w3-ul w3-light-grey w3-center">
-          <li class="w3-blue w3-xlarge w3-padding-32">Niche Services</li>
+          <li class="sidewing w3-xlarge w3-padding-32">Niche Services</li>
           <li class="w3-padding-16">Disinfecting & Hygiene Service</li>
           <li class="w3-padding-16"> Fumigations </li>
           <li class="w3-padding-16"> - </li>
@@ -155,13 +159,24 @@ body {font-size:16px;}
   <!-- Our Team -->
   <div class="w3-container" id="designers" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-grey"><b>Our Team.</b></h1>
-    <hr style="width:50px;border:5px solid #2a9df4" class="w3-round">
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
     <p>Meet our thoughtfully chosen team of professionals. </p>
 
   </div>
 
   <!-- The Team -->
   <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/team/Paul_Esterhuizen.png" alt="Paul" style="width:100%">
+        <div class="w3-container">
+          <h3>Paul Esterhuizen</h3>
+          <p class="w3-opacity"><b>Director</b> | Sales Manager</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
         <img src="images/team/Ryan_Samuels.png" alt="Ryan" style="width:100%">
@@ -172,16 +187,7 @@ body {font-size:16px;}
         </div>
       </div>
     </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="images/team/Paul_Esterhuizen.png" alt="Paul" style="width:100%">
-        <div class="w3-container">
-          <h3>Paul Esterhuizen</h3>
-          <p class="w3-opacity">Sales Manager</p>
-          <p></p>
-        </div>
-      </div>
-    </div>
+
     <!-- div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
         <img src="images/team/" alt="George" style="width:100%">
@@ -196,9 +202,9 @@ body {font-size:16px;}
 
   <!-- Contact -->
   <div id="contact_id" class="w3-container" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-grey"><b>Contact us.</b></h1>
-    <hr style="width:50px;border:5px solid #2a9df4" class="w3-round">
-    <p>Please send your message below. We will get back to you at the earliest!</p>
+    <h1 class="w3-xxxlarge w3-text-grey"><b>Contact Us.</b></h1>
+    <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
+    <p>Please send your message below. We will contact you shortly.</p>
     <form id="contact-form">
         <input type="hidden" name="contact_number" id="count">
 
