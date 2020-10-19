@@ -48,6 +48,19 @@ body {font-size:16px;}
   background-color: #3937c5;
   color: white;
 }
+.cert {
+  position: absolute;
+  margin-left: 62%;
+  height: 130px;
+  transform: rotate(16deg);
+}
+.glogo {
+  font-family: "monotype corsiva";
+  color: #3937c5;
+  font-size: 120px;
+  margin-bottom: -0.3em;
+}
+
 
 </style>
 </head>
@@ -72,7 +85,7 @@ body {font-size:16px;}
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large sidewing w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button sidewing w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Geo Pest</span>
+  <!-- span>Geo Pest</span -->
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -83,8 +96,13 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <img src="images/logo.png">
-    <!-- h1 class="w3-jumbo"><b>PEST</b></h1 -->
+    <!-- img src="images/logo.png" -->
+    <h6 class="glogo">Geo Pest</h6>
+    <p style="color:grey; font-size: 20px;">Contributing to a cleaner environment through pest elimination.</p>
+
+    <br>
+    <br>
+    <br>
     <h1 class="w3-xxxlarge w3-text-grey"><b>Control.</b></h1>
     <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
   </div>
@@ -115,10 +133,17 @@ body {font-size:16px;}
 
   <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:75px">
+    <img src="images/certified.png" class="cert">
     <h1 class="w3-xxxlarge w3-text-grey"><b>Services.</b></h1>
     <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
 
     <p>Offering a wide range of pest control and hygiene services within the commercial sector, ensuring a cleaner, safer and healthier environment.</p>
+    <ul>
+      <li> HACCP compliant. </li>
+      <li> Service to exacting standards to the major role players in the food industry in accordance with their guidelines.</li>
+      <li> Vast experience in the food processing and producing industries, medical facilities. </li>
+      <li>Fully qualified staff, registered with Department of Agriculture, Forestry and Fisheries (DAFF) in accordance with Act 36 of 1947 having their P registration certificates.</li>
+    </ul>
     <br>
     <br>
 
@@ -202,7 +227,9 @@ body {font-size:16px;}
 
   <!-- Contact -->
   <div id="contact_id" class="w3-container" style="margin-top:75px">
+
     <h1 class="w3-xxxlarge w3-text-grey"><b>Contact Us.</b></h1>
+
     <hr style="width:50px;border:5px solid #3937c5" class="w3-round">
     <p>Please send your message below. We will contact you shortly.</p>
     <form id="contact-form">
@@ -226,8 +253,14 @@ body {font-size:16px;}
 <!-- End page content -->
 </div>
 
+
+
 <!-- Signiture -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">by <a href="https://www.jeanpierrejulius.com" title="Jean-Pierre J" target="_blank" class="w3-hover-opacity"><i class="fa fa-rocket"></i> Jean-Pierre J</a></p></div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+
+  <p class="w3-right">by <a href="https://www.jeanpierrejulius.com" title="Jean-Pierre J" target="_blank" class="w3-hover-opacity"><i class="fa fa-rocket"></i> Jean-Pierre J</a></p>
+
+</div>
 
 <script>
 // Script to open and close sidebar
