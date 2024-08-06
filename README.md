@@ -1,1 +1,1 @@
-https://juljeanpierre.github.io/geopest/#contact_id
+https://juljeanpierre.github.io/geopest
